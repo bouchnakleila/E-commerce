@@ -1,0 +1,20 @@
+.category_form{
+    width:100%;
+}
+.icondiv{
+    border:1px solid #CA1515;
+    border-radius: 50%;
+    margin-right:15px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #CA1515;
+    color:white
+}
+.icondiv i{
+    font-size: 30px;
+    
+}
