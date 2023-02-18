@@ -37,7 +37,7 @@ console.log(user,"user")
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/shop">shop</Link></li>
                             <li><Link to="/about">about</Link></li>
-                            { user && user.user.role==='admin' &&
+                            
                             <li className="hot"><a href="#">Latest</a>
                             <ul className="submenu">
                                 <li><Link to="/productList"> Product list</Link></li>
@@ -47,7 +47,7 @@ console.log(user,"user")
                                 <li><Link to="/users"> Users List </Link></li>
                             </ul>
                             </li>
-                            }
+                            
                             <li><a href="blog.html">Blog</a>
                             <ul className="submenu">
                                 <li><a href="#">Blog</a></li>

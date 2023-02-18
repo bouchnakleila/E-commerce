@@ -10,6 +10,7 @@
 
 # production
 /build
+/timezone-master
 
 # misc
 .DS_Store
